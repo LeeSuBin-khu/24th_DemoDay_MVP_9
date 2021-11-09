@@ -37,10 +37,11 @@ export default function App() {
                     <Route path="/pt" element={<PrototypeTest/>} />
                     <Route path="/survey" element={<Survey/>} />
     
-                    <Route exact path="/corporation/main" element={<C_Main/>} />
+                    //기업 페이지
+                    <Route exact path="/corporation/main" element={<C_Main/>} /> //대쉬보드
                     <Route exact path="/corporation/banner/main" element={<CB_Main/>} />
                     <Route exact path="/corporation/banner/detail" element={<CB_Detail/>} />
-                    <Route exact path="/corporation/banner/upload" element={<CB_Upload/>} />
+                    <Route exact path="/corporation/banner/upload" element={<CB_Upload/>} /> //업로드
                     <Route exact path="/corporation/banner/result" element={<CB_Result/>} />
                     <Route exact path="/corporation/prototype/main" element={<CP_Main/>} />
                     <Route exact path="/corporation/prototype/detail" element={<CP_Detail/>} />
